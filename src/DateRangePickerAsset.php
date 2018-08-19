@@ -12,13 +12,7 @@ use yii\web\AssetBundle;
 
 class DateRangePickerAsset extends AssetBundle
 {
-    public $sourcePath = '@npm/jquery-daterangepicker';
-
-    public $publishOptions = [
-        'only' => [
-            'lib/dist/',
-        ],
-    ];
+    public $sourcePath = '@npm/jquery-daterangepicker/lib/dist';
 
     public $css = [
         'daterangepicker.min.css',
