@@ -1,0 +1,38 @@
+{
+  "name": "huijiewei/yii2-daterangepicker",
+  "description": "jQuery Date Range Picker is a jQuery plugin that allows user to select a date range.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-daterangepicker.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "dateRangePicker",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "huijiewei/moment": "^2.0",
+    "huijiewei/fontawesome": "^2.0",
+    "npm-asset/jquery-daterangepicker": "^0.18.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\daterangepicker\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}

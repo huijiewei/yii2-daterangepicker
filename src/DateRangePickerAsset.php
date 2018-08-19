@@ -12,7 +12,13 @@ use yii\web\AssetBundle;
 
 class DateRangePickerAsset extends AssetBundle
 {
-    public $sourcePath = '@huijiewei/daterangepicker/assets';
+    public $sourcePath = '@npm/jquery-daterangepicker';
+
+    public $publishOptions = [
+        'only' => [
+            'lib/dist/',
+        ],
+    ];
 
     public $css = [
         'daterangepicker.min.css',
@@ -25,5 +31,6 @@ class DateRangePickerAsset extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'huijiewei\moment\MomentAsset',
+        'huijiewei\fontawesome\FontAwesomeAsset',
     ];
 }
